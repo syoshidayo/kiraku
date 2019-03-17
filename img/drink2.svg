@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink"
+width="64" height="64">
+  <title>Drink</title>
+  <desc>A line styled icon from Orion Icon Library.</desc>
+  <path data-name="layer2"
+  d="M13 52v8a2 2 0 0 0 2 2h26a2 2 0 0 0 2-2v-8m8-50H39a4 4 0 0 0-4 4v38"
+  fill="none" stroke="#21a2f2" stroke-linecap="round" stroke-linejoin="round"
+  stroke-width="2"></path>
+  <path data-name="layer1" fill="none" stroke="#21a2f2" stroke-linecap="round"
+  stroke-linejoin="round" stroke-width="2" d="M13 16h30v36H13z"></path>
+</svg>

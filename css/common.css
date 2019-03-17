@@ -1,0 +1,363 @@
+@charset "UTF-8";
+
+
+.main-contents{
+    padding: 53px 0px 49px 0px;
+    height: 100%;
+}
+
+.main-contents2{
+    padding: 53px 0px 0px 0px;
+    height: 100%;
+}
+
+.container{
+    
+}
+
+.number{
+    display: inline-block;
+    font-size: 20px;
+    min-width: 22px;
+    text-align: center;
+    position: relative;
+    top: 1px;
+}
+.menu-cos .number{
+    min-width: 14px;
+}
+/*タイトルの上線(細いやつ)ーーーー
+.title{
+    border-top: 1px solid #EBECEE;
+}
+ーーーーーーーーーーー*/
+
+.title-box{
+    height: 25px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #EBECEE;
+}
+.title-pos{
+    font-size: 12px;
+    color: #9196A0;
+    position: relative;
+    top: -2px;
+    left: 7px;
+}
+
+
+/*メイン部分ーーーー*/
+/*テーブルの方*/
+.menu-box{
+    height: 60px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #EBECEE;
+}
+.menu-table{
+    width: 45px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.menu-cos{
+    width: calc(100% - 145px);
+    padding-top: 13px;
+    padding-left: 5px;
+}
+.menu-count{
+    width: 100px;
+    text-align: right;
+    padding-top: 13px;
+    padding-right: 15px;
+}
+/*料理の方*/
+.menu-table2{
+    width: 45px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.menu-cos2{
+    width: calc(100% - 85px);
+    padding-top: 17px;
+    padding-left: 5px;
+}
+.menu-count2{
+    width: 40px;
+    text-align: left;
+    padding-top: 13px;
+    padding-right: 5px;
+}
+
+
+
+/*注文ストックーーーーー*/
+
+.order-menu{
+    width: calc(100% - 100px);
+    padding-top: 17px;
+    padding-left: 20px;
+}
+.order-count{
+    width: 100px;
+    text-align: right;
+    padding-top: 13px;
+    padding-right: 20px;
+}
+
+.order-kind{
+    height: 30px;
+}
+
+
+
+
+
+
+/*addシリーズ*/
+.add-block{
+    margin: 0 auto;
+    width: 230px;
+    padding-top: 15px;
+}
+
+.add-block th{
+    width: 200px;
+    padding-top: 3px;
+}
+.add-block td{
+    width: 30px;
+    padding-top: 3px;
+    text-align: center;
+}
+
+.add-table{
+    width: 130px;
+}
+.add-table th{
+    width: 100px;
+}
+
+/*決定ボタン*/
+.decision-block{
+    width: 210px;
+    margin: 10px auto 0 auto;
+    justify-content: space-between;
+}
+
+.back-bu,.next-bu{
+    width: 80px;
+    height: 40px;
+    border: solid 1px #C9C9CB;
+}
+.back-bu a,.next-bu a{
+    padding: 7px 22px;
+}
+
+/*削除ボタン*/
+.delete-bu{
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 13px;
+}
+.delete-bu a{
+    padding-top: 10px;
+}
+
+/*オプションのパーツ*/
+.op-vis{
+    height: 56px;
+}
+.op-des{
+    font-size: 12px;
+    color: #9196A0;
+    position: relative;
+    top: 26px;
+    left: 17px;
+}
+
+.option{
+    background: #f9f9f9;
+    border-top: 1px solid #EBECEE;
+    border-bottom: 1px solid #EBECEE;
+    margin-bottom: 6px;
+}
+
+.op-box{
+    height: 45px;
+    margin-left: 17px;
+    border-bottom: 1px solid #EBECEE;
+}
+
+.op-box a{
+    padding-top: 10px; 
+}
+
+
+.op-box:first-child{
+    height: 44px;
+}
+.op-box:last-child{
+    height: 44px;
+    border-style: none;
+}
+
+.op-pos{
+    position: relative;
+    top: 8px;
+    left: 1px;
+}
+
+.action-seat{
+    position: fixed;
+    font-size: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.2;
+    z-index: 5;
+}
+.choise{
+    position: fixed;
+    top: 35%;
+    width: 100%;
+    height: 70%;
+    opacity: 1;
+    z-index: 6;
+}
+
+.choise_in{
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    opacity: 1;
+    border-radius: 7px;
+
+}
+
+.menu-seat{
+    position: fixed;
+    top: 54px;
+    width: 100%;
+    height: calc(100% - 104px);
+    opacity: 1;
+    z-index: 6;
+    background: #fff;
+    padding-top: 40px;
+}
+
+
+/*オーバーレイ*/
+.ac-top{
+    height: 80px;
+}
+.ac-1{
+    text-align: center;
+    padding-top: 27px;
+    line-height: 19px;
+}
+
+.ac-bottom{
+    height: 40px;
+    display: flex;
+}
+.ac-2{
+    text-align: center;
+    width: 50%;
+    padding-top: 5px;
+    border-top: solid 2px #EBECEE; 
+    border-right: solid 1px #EBECEE; 
+}
+
+.ac-3{
+    text-align: center;
+    width: 50%;
+    padding-top: 5px;
+    border-top: solid 2px #EBECEE; 
+    border-left: solid 1px #EBECEE; 
+}
+.ac-2 a,.ac-3 a{
+    padding-top: 5px;
+}
+
+#over-1{
+    display: none;
+}
+#over-2{
+    display: none;
+}
+#over-1:target, #over-1:target + #over-2 {
+	display: block;
+}
+
+#f1{
+    display: none;
+}
+#f1:target {
+	display: block;
+}
+
+
+
+/*radioボタン装飾*/
+input[type=radio]{
+    display: none;
+}
+
+
+
+
+.menu-touroku{
+    padding: 15px;
+}
+
+
+
+.delete-text{
+    padding-top: 25px;
+    text-align: center;
+}
+
+.goukei{
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.goukei td{
+    text-align: right;
+    padding-right: 7px;
+}
+
+.delete-card{
+    margin-bottom: 5px;
+    height: 80px;
+    width: 49%;
+    border: solid 1px #C9C9CB;
+    position: relative;
+}
+
+.delete-card a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px 40px;
+}
+
+
+
+
+
+
+
+
+
+

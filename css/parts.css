@@ -1,0 +1,143 @@
+@charset "UTF-8";
+body{
+    background: #F0EFF5;
+    position: relative;
+}
+img{
+	width: 100%;
+	vertical-align: bottom;
+}
+li{
+    list-style: none;
+}
+
+.wrapper{
+    display: flex;
+}
+
+button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding: 0;
+        appearance: none;
+}
+
+.none-block{
+    display: none;
+}
+
+
+.menu-block a:link {color:#212529;} /*未訪問のリンクの色*/
+.menu-block a:visited {color:#212529;} /*訪問済みのリンクの色*/
+.menu-block a:hover {color:#212529; text-decoration: none;} /*カーソルが乗っているリンクの色*/
+.menu-block a:active {color:#212529; text-decoration: none;} /*クリック中のリンクの色*/
+
+.main-block a:link {color:#212529;} /*未訪問のリンクの色*/
+.main-block a:visited {color:#212529;} /*訪問済みのリンクの色*/
+.main-block a:hover {color:#212529; text-decoration: none;} /*カーソルが乗っているリンクの色*/
+.main-block a:active {color:#212529; text-decoration: none;} /*クリック中のリンクの色*/
+
+.main-block{
+    position: relative;
+}
+.main-block a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*右下のボタン*/
+
+.add-bu{
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #0BB203;
+    color: #fff;
+}
+.add-bu a{
+    font-size: 26px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 6px 12px;
+}
+
+.add-bu a:link {color:#fff;} /*未訪問のリンクの色*/
+.add-bu a:visited {color:#fff;} /*訪問済みのリンクの色*/
+.add-bu a:hover {color:#fff; text-decoration: none;} /*カーソルが乗っているリンクの色*/
+.add-bu a:active {color:#fff; text-decoration: none;} /*クリック中のリンクの色*/
+
+
+
+
+.ac-3 a:link {color:red;} /*未訪問のリンクの色*/
+.ac-3 a:visited {color:red;} /*訪問済みのリンクの色*/
+.ac-3 a:hover {color:red; text-decoration: none;} /*カーソルが乗っているリンクの色*/
+.ac-3 a:active {color:red; text-decoration: none;} /*クリック中のリンクの色*/
+
+
+.ac-3-b a:link {color:#1DA1F2;} /*未訪問のリンクの色*/
+.ac-3-b a:visited {color:#1DA1F2;} /*訪問済みのリンクの色*/
+.ac-3-b a:hover {color:#1DA1F2; text-decoration: none;} /*カーソルが乗っているリンクの色*/
+.ac-3-b a:active {color:#1DA1F2; text-decoration: none;} /*クリック中のリンクの色*/
+
+pre{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    color: #fff;
+}
+
+
+.order-check{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+@charset "UTF-8";
+.calendar {
+  margin:20px 0;
+  padding:0;
+  width:100%;
+  border-style:solid;
+  border-width: 1px 0 1px 0;
+  border-color: #C9C9CB;
+  }
+ 
+tr {
+  width:100%;
+  }
+ 
+td.week {
+  border-style:solid;
+  border-width:0 1px 0 0;
+  border-color: #C9C9CB;
+  padding:0;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 8px;
+  }
+ 
+td.week:last-child {
+  border:none;
+  }
+ 
+td.day {
+  border-style:solid;
+  border-width:1px 1px 0 0;
+  border-color: #C9C9CB;
+  padding: 0;
+  position: relative;
+  height: 70px;
+  }
+ 
+td.day:last-child {
+  border-width:1px 0 0 0;
+  }
+ 
+td.no-day:last-child {
+  border-width:1px 0 0 0;
+  }
+
+td.no-day {
+  background-color:#47a3da;
+  border-style:solid;
+  border-color: #C9C9CB;
+  border-width:1px 1px 0 0;
+  opacity:0.2;
+  padding:0;
+  }
+
+.x-day{
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.y-day{
+    display: block;
+    width: 90%;
+    text-align: center;
+    font-size: 10px;
+    background: #ffeaff;
+    margin: 0 auto 2px  auto;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
